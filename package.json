@@ -1,0 +1,20 @@
+{
+  "name": "customerbase",
+  "version": "1.0.0",
+  "description": "Simple GraphQL server",
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "express": "^4.15.3",
+    "express-graphql": "^0.6.7",
+    "graphql": "^0.10.5",
+    "json-server": "^0.11.2",
+    "nodemon": "^1.11.0"
+  }
+}
